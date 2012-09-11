@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" type="text/css" href="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.8.2/css/jquery.dataTables.css">
+        <link rel="stylesheet" type="text/css" href="http://cdn.leafletjs.com/leaflet-0.4/leaflet.css" />
+        <link rel="stylesheet" type="text/css" href="app.css" />
+        <link href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css" type="text/css" rel="stylesheet">
+        <script src="http://cdn.leafletjs.com/leaflet-0.4/leaflet.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script> 
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.3/jquery.dataTables.min.js"></script>
+
+        <title>Datatable and a Map</title>
+    </head>
+    <body>
+        <div class="container">
+            <h3>Datatable and a Map</h3>
+            <div id="map"></div>
+            <p></p>
+        <table cellpadding="0" cellspacing="0" border="0" class="bordered-table zebra-striped" id="datatable">
+            <thead>
+            <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td>Row 1 Data 1</td>
+            <td>Row 1 Data 2</td>
+            <td>etc</td>
+            </tr>
+            <tr>
+            <td>Row 2 Data 1</td>
+            <td>Row 2 Data 2</td>
+            <td>etc</td>
+            </tr>
+            <tr>
+            <td>Row 3 Data 1</td>
+            <td>Row 3 Data 2</td>
+            <td>etc</td>
+            </tr>
+            <tr>
+            <td>Row 4 Data 1</td>
+            <td>Row 4 Data 2</td>
+            <td>etc</td>
+            </tr>
+            <tr>
+            <td>Row 5 Data 1</td>
+            <td>Row 5 Data 2</td>
+            <td>etc</td>
+            </tr>
+            <tr>
+            <td>Row 6 Data 1</td>
+            <td>Row 6 Data 2</td>
+            <td>etc</td>
+            </tr>
+            </tbody>
+        </table>
+        <script src="app.js"></script>
+        <script>
+            $(function() {
+                init_page();
+            });
+        </script>
+    </div>
+    </body>
+</html>
